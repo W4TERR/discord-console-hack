@@ -1,5 +1,5 @@
-## How to use this Hack
-DISCLAIMER: Yes, Discord Has The Right To Ban You For Using This Due To How This Script Is Labeled, But It Would Be Very Hard For Them To Trace You Using This Script. Use At Your Own Cost.
+## How to use this theme script
+DISCLAIMER: Yes, Discord Has The Right To Ban You For Using This Due To How This Script Is Labeled, But It Would Be Very Hard For Them To Trace You Using This Script. Use At Your Own Cost. 
 Also This Does Not Work On Mobile.
 ## Dev Tools Method
 1. Press CTRL + SHIFT + I to toggle Developer Tools (Discord is electronjs which is basically google chrome)
