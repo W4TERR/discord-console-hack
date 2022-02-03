@@ -34,8 +34,8 @@ __SECRET_EMOTION__.injectGlobal(` * {
 } `)
 ```
  
-6. Press enter
-7. Enjoy Your Theme!
+4. Press enter
+5. Enjoy Your Theme!
 
 ## Bookmarklet Method
 1. Copy this script  
@@ -67,8 +67,8 @@ javascript:__SECRET_EMOTION__.injectGlobal(` * {
 --scrollbar-thin-thumb: var(--discord-secondary);  
 } `)
 ```
-2. Go on the discord site and type in your search bar "javascript:" then paste the script
-3. Press enter
+2. **Go on the discord site and type in your search bar "javascript:" since when you paste the javascript: part it doesn't paste anything... Then paste the script**
+3. Press **enter**
 4. Enjoy Your Theme
  
- ***P.S If you want to keep doing this without having to type javascript: and pasting the code all the time make a bookmarklet and remove it name and make the URL "javascript:" and paste the code on discord-theme.js and save the bookmarklet. Then when you go on discord just press the bookmark once and it will automatically load the theme script when you press.***
+ ***P.S If you want to keep doing this without having to type javascript: and pasting the code all the time make a bookmarklet and remove it name and make the URL "javascript:" and paste the code on discord-theme.js and save the bookmarklet. Then when you go on discord just press the bookmark once and it will load the theme script when you press the bookmark.***
