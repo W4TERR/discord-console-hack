@@ -70,4 +70,4 @@ javascript:__SECRET_EMOTION__.injectGlobal(` * {
 2. Go on the discord site and type in your search bar "javascript:" then paste the script
 3. Press enter
 4. Enjoy Your Theme
-***Ps If you want to keep doing this without having to type javascript: and pasting the code all the time make a bookmarklet and remove it name and make the URL "javascript:" and paste the code on discord-theme.js and save the bookmarklet. Then when you go on discord just press the bookmark once and it will automatically load the theme script when you press.
+ ***Ps If you want to keep doing this without having to type javascript: and pasting the code all the time make a bookmarklet and remove it name and make the URL "javascript:" and paste the code on discord-theme.js and save the bookmarklet. Then when you go on discord just press the bookmark once and it will automatically load the theme script when you press.***
