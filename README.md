@@ -6,7 +6,7 @@ Also This Does Not Work On Mobile.
 2. Click on "Console" if not already selected
 3. Paste this script in the console 
 ```js
-javascript:__SECRET_EMOTION__.injectGlobal(` * {
+__SECRET_EMOTION__.injectGlobal(` * {
 --discord-primary: #000720;    
 --discord-secondary: #1c2341;
 --discord-secondary-alt: #396cb335;
