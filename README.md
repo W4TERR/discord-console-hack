@@ -5,7 +5,7 @@ Also This Does Not Work On Mobile.
 1. Press CTRL + SHIFT + I to toggle Developer Tools (Discord is electronjs which is basically google chrome)
 2. Click on "Console" if not already selected
 3. Paste this script in the console ```js 
-__SECRET_EMOTION__.injectGlobal(\` * {
+__SECRET_EMOTION__.injectGlobal(` * {
 --discord-primary: #000720;    
 --discord-secondary: #1c2341;
 --discord-secondary-alt: #396cb335;
@@ -30,14 +30,15 @@ __SECRET_EMOTION__.injectGlobal(\` * {
 --scrollbar-auto-track: var(--discord-primary);
 --scrollbar-thin-track: var(--discord-primary);
 --scrollbar-thin-thumb: var(--discord-secondary);  
-} \`)
- ```
+} `)
+ 
 6. Press enter
 7. Enjoy Your Theme!
 
 ## Bookmarklet Method
-1. Copy this script  ```js
-javascript:__SECRET_EMOTION__.injectGlobal(\` * {
+1. Copy this script  
+```js
+javascript:__SECRET_EMOTION__.injectGlobal(` * {
 --discord-primary: #000720;    
 --discord-secondary: #1c2341;
 --discord-secondary-alt: #396cb335;
@@ -62,7 +63,7 @@ javascript:__SECRET_EMOTION__.injectGlobal(\` * {
 --scrollbar-auto-track: var(--discord-primary);
 --scrollbar-thin-track: var(--discord-primary);
 --scrollbar-thin-thumb: var(--discord-secondary);  
-} \`)
+} `)
 ```
 2. Go on the discord site and type in your search bar "javascript:" then paste the script
 3. Press enter
